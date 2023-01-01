@@ -33,3 +33,5 @@ master-connect-retry = 60
 relay-log = mysql-relay-bin
 relay-log-index = mysql-relay-bin.index
 log-bin = mysql-bin
+bind-address=18.219.107.228
+log-bin = /var/log/mariadb/mariadb-replication.log
